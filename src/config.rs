@@ -45,8 +45,6 @@ impl Default for Config {
             database_url: String::from(""),
             token: String::from(""),
             servers: Servers::default(),
-            roles: Roles::default(),
-            channels: Channels::default(),
             frontend_url: String::from("https://infinitybots.gg"),
             proxy_url: String::from("http://127.0.0.1:3219"),
             owners: vec![NonZeroU64::new(510065483693817867).unwrap()],
