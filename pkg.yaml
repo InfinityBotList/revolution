@@ -1,0 +1,7 @@
+language: rust
+project: "revolution"
+binary: "bot"
+service: "revolution"
+lang_opts:
+env:
+  DATABASE_URL: postgres://localhost/infinity  
